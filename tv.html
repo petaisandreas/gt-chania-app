@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mat TV · {{appName}}</title>
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/icon-apple.png">
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/client.css" />
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/tv.css" />
+</head>
+<body class="tv">
+  <header class="tv-head">
+    <div class="brand"><img src="assets/logo.png" alt="" width="44" height="44" /><span id="tv-academy"></span></div>
+    <div id="tv-class" class="tv-class"></div>
+    <div id="tv-clock" class="tv-clock"></div>
+  </header>
+
+  <main class="tv-main">
+    <section class="timer" id="timer" data-phase="idle">
+      <div class="t-phase" id="t-phase">Ready</div>
+      <div class="t-time" id="t-time">5:00</div>
+      <div class="t-round" id="t-round">Round 1 of 6</div>
+      <div class="t-bar"><span id="t-bar"></span></div>
+      <div class="t-controls" id="t-controls">
+        <div class="t-presets" id="t-presets"></div>
+        <div class="t-buttons">
+          <button class="t-btn" data-act="reset" title="Reset (R)">↺</button>
+          <button class="t-btn t-main" data-act="toggle" id="t-toggle" title="Start / pause (Space)">▶</button>
+          <button class="t-btn" data-act="skip" title="Skip phase (N)">⏭</button>
+          <button class="t-btn" data-act="settings" title="Custom timer">⚙</button>
+          <button class="t-btn" data-act="sound" id="t-sound" title="Sound on/off (M)">🔔</button>
+          <button class="t-btn" data-act="fullscreen" title="Full screen (F)">⛶</button>
+        </div>
+        <p class="t-keys">Space start/pause · N skip · R reset · F full screen · M mute</p>
+      </div>
+    </section>
+
+    <aside class="mat">
+      <div class="mat-head"><h2>On the mat</h2><span id="mat-count" class="mat-count">0</span></div>
+      <p id="mat-sub" class="mat-sub"></p>
+      <div id="mat-list" class="mat-list"></div>
+    </aside>
+  </main>
+
+  <div id="tv-flash" class="tv-flash" hidden></div>
+  <script type="module" src="js/tv.js"></script>
+</body>
+</html>

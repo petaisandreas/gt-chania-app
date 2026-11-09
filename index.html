@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{siteTitle}}</title>
+  <meta name="description" content="{{siteDescription}}" />
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/icon-apple.png">
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/client.css" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body class="site">
+  <header class="nav">
+    <a href="#" class="brand"><img src="assets/logo.png" alt="" width="36" height="36" /><span>{{wordmarkMain}}<b>{{wordmarkAccent}}</b></span></a>
+    <nav class="nav-links">
+      <a href="#features">Features</a><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-cta"><a href="member.html" class="btn btn-ghost">Member login</a><a href="app.html" class="btn btn-ghost">Staff demo</a><a href="#trial" class="btn btn-primary">Start free</a></div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="pill">{{promo}}</span>
+      <h1>Run your academy.<br /><em>Not</em> your spreadsheets.</h1>
+      <p class="lead">{{heroLead}}</p>
+      <div class="hero-cta"><a href="#trial" class="btn btn-primary btn-lg">Try it free for 30 days</a><a href="app.html" class="btn btn-ghost btn-lg">Explore the demo →</a></div>
+      <ul class="ticks"><li>No contract</li><li>No card required</li><li>Unlimited members</li></ul>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="mock">
+        <div class="mock-bar"><i></i><i></i><i></i></div>
+        <div class="mock-body">
+          <div class="mock-side"><b></b><span></span><span class="on"></span><span></span><span></span><span></span></div>
+          <div class="mock-main">
+            <div class="mock-kpis"><div><small>Active</small><strong>214</strong></div><div><small>Check-ins</small><strong>1,036</strong></div><div><small>MRR</small><strong>$31.4k</strong></div></div>
+            <div class="mock-chart"><span style="--h:40%"></span><span style="--h:62%"></span><span style="--h:48%"></span><span style="--h:80%"></span><span style="--h:70%"></span><span style="--h:92%"></span><span style="--h:56%"></span><span style="--h:74%"></span><span style="--h:88%"></span><span style="--h:66%"></span></div>
+            <div class="mock-row"><span class="b blue"></span><p>Ana R. — ready for <b>Blue · 2 stripes</b></p><em>Promote</em></div>
+            <div class="mock-row"><span class="b purple"></span><p>Theo K. — checked in to <b>No-Gi 7:15 PM</b></p></div>
+          </div>
+        </div>
+      </div>
+      <div class="float-card fc-1">✓ Oss, Mateo! <small>Checked in · Advanced Gi</small></div>
+      <div class="float-card fc-2">$179 received <small>Auto-billed · Unlimited</small></div>
+    </div>
+  </section>
+
+  <section class="strip">
+    <div><strong>10</strong><span>modules, one login</span></div>
+    <div><strong>0%</strong><span>platform fee on tuition</span></div>
+    <div><strong>3 sec</strong><span>average kiosk check-in</span></div>
+    <div><strong>24/7</strong><span>setup help from real people</span></div>
+  </section>
+
+  <section id="features" class="section">
+    <header class="section-head"><span class="eyebrow">Everything on one mat</span><h2>The whole academy, connected.</h2><p>Each module talks to the others: a check-in counts toward a stripe, a converted lead becomes a billed member, a shop sale lands on their account.</p></header>
+    <div class="features">
+      <article><span class="f-ico">◉</span><h3>Member management</h3><p>Profiles with rank, plan, waiver status, family notes and full training history. Filter, search and export in seconds.</p></article>
+      <article><span class="f-ico">▦</span><h3>Schedule & attendance</h3><p>Build your weekly timetable, take attendance with one tap, and let members reserve spots in upcoming classes.</p></article>
+      <article><span class="f-ico">$</span><h3>Billing & payments</h3><p>Recurring memberships, class packs, one-off invoices and failed-payment retries — with a clear view of what's owed.</p></article>
+      <article><span class="f-ico">➚</span><h3>Leads & automations</h3><p>A drag-and-drop pipeline from first enquiry to signed member, plus email and SMS sequences that follow up for you.</p></article>
+      <article><span class="f-ico">☰</span><h3>Staff & payroll</h3><p>Assign coaches to classes, set per-class rates and get payroll totals for any pay period automatically.</p></article>
+      <article><span class="f-ico">▬</span><h3>Belts & progress</h3><p>Set your own stripe and belt requirements. {{appName}} tracks mat time and tells you who's ready to be promoted.</p></article>
+      <article><span class="f-ico">❖</span><h3>Curriculum builder</h3><p>A technique library organized by belt and position, sequenced into weekly lesson plans every coach can follow.</p></article>
+      <article><span class="f-ico">▣</span><h3>Pro shop & inventory</h3><p>Sell gis, rash guards and drinks from a touch-friendly register. Low-stock alerts keep the shelves full.</p></article>
+      <article><span class="f-ico">◔</span><h3>Reports</h3><p>Revenue, profit, retention, busiest days and at-risk members — the numbers that actually move an academy.</p></article>
+      <article><span class="f-ico">⌂</span><h3>Front-desk kiosk</h3><p>Put a tablet at the door. Members punch in a PIN or tap their name and they're on the mat.</p></article>
+    </div>
+  </section>
+
+  <section id="how" class="section dark">
+    <header class="section-head"><span class="eyebrow">Switching is easy</span><h2>Up and running in a weekend.</h2></header>
+    <ol class="steps">
+      <li><b>01</b><h3>Import</h3><p>Send us your member list in any format. We map ranks, plans and history for you.</p></li>
+      <li><b>02</b><h3>Configure</h3><p>Add your timetable, membership plans and promotion rules. Your academy, your system.</p></li>
+      <li><b>03</b><h3>Launch</h3><p>Open the kiosk, share the member link, and watch check-ins roll in on Monday.</p></li>
+    </ol>
+  </section>
+
+  <section id="pricing" class="section">
+    <header class="section-head"><span class="eyebrow">Pricing</span><h2>One flat price. Grow without penalty.</h2><p>Your bill never goes up because your academy got bigger.</p></header>
+    <div class="pricing">
+      <article class="price-card">
+        <h3>Single Academy</h3><p class="price"><b>$149</b>/month</p>
+        <ul><li>Unlimited members & staff</li><li>All 10 modules</li><li>Kiosk & member app</li><li>Email support</li></ul>
+        <a href="#trial" class="btn btn-ghost full">Start free trial</a>
+      </article>
+      <article class="price-card featured">
+        <span class="tag">Most popular</span>
+        <h3>Academy Pro</h3><p class="price"><b>$229</b>/month</p>
+        <ul><li>Everything in Single</li><li>Marketing automations</li><li>Website lead forms</li><li>Priority phone support</li></ul>
+        <a href="#trial" class="btn btn-primary full">Start free trial</a>
+      </article>
+      <article class="price-card">
+        <h3>Multi-Location</h3><p class="price"><b>$399</b>/month</p>
+        <ul><li>Everything in Pro</li><li>Unlimited locations</li><li>Cross-location reporting</li><li>Dedicated success manager</li></ul>
+        <a href="#trial" class="btn btn-ghost full">Talk to us</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="faq" class="section narrow">
+    <header class="section-head"><span class="eyebrow">FAQ</span><h2>Questions from the mat.</h2></header>
+    <details><summary>Do I need a credit card to try it?</summary><p>No. The 30-day trial is fully featured and requires only your academy name and email.</p></details>
+    <details><summary>Can members pay through {{appName}}?</summary><p>Yes. Recurring plans, class packs, event fees and shop purchases can all be billed to a member's account.</p></details>
+    <details><summary>Does it work for kids programs?</summary><p>Yes — kids ranks (grey, yellow, orange, green) have their own promotion rules, and kids classes get their own rosters.</p></details>
+    <details><summary>What happens to my data if I leave?</summary><p>It's yours. Export members to CSV or download a full backup any time from Settings.</p></details>
+  </section>
+
+  <section id="trial" class="section trial">
+    <div class="trial-copy">
+      <span class="eyebrow">30 days free</span>
+      <h2>Ready to roll?</h2>
+      <p>Tell us about your academy and we'll set up your workspace. No contracts, no credit card, unlimited members.</p>
+    </div>
+    <form class="trial-form" id="trial-form">
+      <label><span>Academy name *</span><input name="academy" required /></label>
+      <label><span>Your name *</span><input name="name" required /></label>
+      <label><span>Email *</span><input name="email" type="email" required /></label>
+      <label><span>Phone *</span><input name="phone" type="tel" required /></label>
+      <label><span>Country *</span><select name="country" required><option value="">Select…</option><option>United States</option><option>Brazil</option><option>United Kingdom</option><option>Canada</option><option>Australia</option><option>Other</option></select></label>
+      <label><span>Website</span><input name="site" type="url" placeholder="https://" /></label>
+      <button class="btn btn-primary btn-lg full">Start my free trial</button>
+      <p class="fine">Submitting creates a lead in the demo workspace so you can see the pipeline in action.</p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="brand"><img src="assets/logo.png" alt="" width="28" height="28" /><span>{{wordmarkMain}}<b>{{wordmarkAccent}}</b></span></div>
+    <p>© <span id="yr"></span> {{appName}}. Made for the Jiu-Jitsu community.</p>
+    <nav><a href="app.html">Staff app</a><a href="member.html">Member portal</a><a href="kiosk.html">Kiosk</a><a href="#pricing">Pricing</a></nav>
+  </footer>
+
+  <script type="module">
+    import { update, uid, today } from "./js/store.js";
+    document.getElementById("yr").textContent = new Date().getFullYear();
+    const form = document.getElementById("trial-form");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const v = Object.fromEntries(new FormData(form));
+      update((d) => d.leads.push({ id: uid("ld"), name: v.name, email: v.email, phone: v.phone, source: "Website form", stage: "New", interest: "Academy trial — " + v.academy, created: today(), trialDate: "", notes: `${v.academy} · ${v.country}${v.site ? " · " + v.site : ""}` }));
+      form.innerHTML = `<div class="thanks"><h3>Oss, ${v.name.replace(/[<>&]/g, "")}! 🥋</h3><p>Your request is in. Open the demo to see it in the Leads pipeline.</p><a class="btn btn-primary" href="app.html#/leads">Open the pipeline →</a></div>`;
+    });
+  </script>
+</body>
+</html>

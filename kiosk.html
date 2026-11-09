@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Check-in Kiosk · {{appName}}</title>
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/icon-apple.png">
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/client.css" />
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body class="kiosk">
+  <header class="kiosk-head">
+    <div class="brand"><img src="assets/logo.png" alt="" width="40" height="40" /><span id="k-academy"></span></div>
+    <div id="k-clock" class="k-clock"></div>
+  </header>
+  <main class="kiosk-main">
+    <section class="k-left">
+      <h1>Welcome to the mats.</h1>
+      <p class="muted">Enter your 4-digit PIN or find your name to check in.</p>
+      <div class="pin-display" id="pin"><span></span><span></span><span></span><span></span></div>
+      <div class="keypad" id="keypad"></div>
+      <input class="input k-search" id="k-search" type="search" placeholder="…or search your name" autocomplete="off" />
+      <div id="k-matches" class="k-matches"></div>
+    </section>
+    <section class="k-right">
+      <h2>Today's classes</h2>
+      <div id="k-classes"></div>
+    </section>
+  </main>
+  <div id="k-overlay" class="k-overlay" hidden></div>
+  <script type="module" src="js/kiosk.js"></script>
+</body>
+</html>

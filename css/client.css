@@ -1,0 +1,17 @@
+/* GENERATED from clients/gt-chania/client.json by scripts/sync-default.mjs / scripts/build.mjs. Do not edit by hand. */
+:root {
+  --accent: #1f2937;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(31, 41, 55, 0.08);
+  --accent-2: #d32f2f;
+  --screen-accent: #d32f2f;
+  --screen-accent-ink: #ffffff;
+  --brand: #111111;
+}
+
+:root[data-theme="dark"] {
+  --accent: #eceef1;
+  --accent-ink: #111317;
+  --accent-soft: rgba(236, 238, 241, 0.1);
+  --accent-2: #ff5a5a;
+}

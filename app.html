@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{appName}}</title>
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/icon-apple.png">
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/client.css" />
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body class="app">
+  <aside class="sidebar">
+    <a href="index.html" class="brand"><img src="assets/logo.png" alt="" width="34" height="34" /><span>{{wordmarkMain}}<b>{{wordmarkAccent}}</b></span></a>
+    <div class="academy-pill"><span class="dot"></span><span id="academy-name"></span></div>
+    <nav id="nav"></nav>
+    <div class="sidebar-foot"><a href="kiosk.html" target="_blank">Kiosk mode ↗</a><a href="tv.html" target="_blank">Mat TV ↗</a><a href="member.html" target="_blank">Member portal ↗</a></div>
+  </aside>
+  <div id="scrim"></div>
+  <div class="main-col">
+    <header class="topbar">
+      <button id="menu-btn" class="icon-btn" aria-label="Menu">☰</button>
+      <div class="search">
+        <input id="global-search" type="search" placeholder="Search members, leads, gear…   ( / )" autocomplete="off" />
+        <div id="search-results" hidden></div>
+      </div>
+      <button id="theme-btn" class="icon-btn" aria-label="Toggle theme" title="Toggle theme">◐</button>
+      <span class="avatar me">{{ownerInitials}}</span>
+    </header>
+    <main id="view" tabindex="-1"></main>
+  </div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

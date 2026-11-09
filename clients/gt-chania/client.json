@@ -1,0 +1,26 @@
+{
+  "id": "gt-chania",
+  "isDefault": true,
+  "appName": "GT Chania",
+  "wordmark": { "main": "GT", "accent": "CHANIA" },
+  "businessName": "Grappling Team Chania",
+  "owner": { "name": "Head Coach", "short": "Coach", "initials": "GT" },
+  "contact": { "email": "info@example.com", "instagram": "gtchania.demo" },
+  "locale": { "currency": "EUR", "numberLocale": "en-IE" },
+  "storagePrefix": "gtchania",
+  "seed": { "location": "Chania", "staffEmailDomain": "example.com" },
+  "site": {
+    "title": "Grappling Team Chania — Academy app",
+    "description": "Grappling Team Chania: members, class schedule, check-ins, payments and belt progress in one place.",
+    "heroLead": "Members, class check-ins, payments, belt promotions and new sign-ups for Grappling Team Chania in one fast, mobile-friendly app.",
+    "promo": "🥋 Grappling Team Chania"
+  },
+  "theme": {
+    "themeColor": "#111111",
+    "light": { "accent": "#1f2937", "accentInk": "#ffffff", "accent2": "#d32f2f" },
+    "dark": { "accent": "#eceef1", "accentInk": "#111317", "accent2": "#ff5a5a" },
+    "screen": { "accent": "#d32f2f", "accentInk": "#ffffff" },
+    "logo": { "bg": "#ffffff", "fg": "#111111" }
+  },
+  "deploy": { "customDomain": "" }
+}

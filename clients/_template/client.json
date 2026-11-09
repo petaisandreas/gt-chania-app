@@ -1,0 +1,26 @@
+{
+  "id": "template",
+  "isDefault": false,
+  "appName": "BRAND",
+  "wordmark": { "main": "BRAND", "accent": "" },
+  "businessName": "Your Academy Name",
+  "owner": { "name": "Owner Name", "short": "Owner", "initials": "ON" },
+  "contact": { "email": "hello@example.com", "instagram": "yourhandle" },
+  "locale": { "currency": "EUR", "numberLocale": "en-IE" },
+  "storagePrefix": "bjj-template",
+  "seed": { "location": "Main Academy", "staffEmailDomain": "example.com" },
+  "site": {
+    "title": "Your Academy Name — Academy software",
+    "description": "Your Academy Name runs on one workspace: members, schedule, check-ins, billing, belts, leads, staff, shop and reports.",
+    "heroLead": "Your Academy Name puts members, class check-ins, billing, belt promotions and lead follow-up in one fast, mobile-friendly workspace.",
+    "promo": "Built for academy owners"
+  },
+  "theme": {
+    "themeColor": "#16181c",
+    "light": { "accent": "#1d4ed8", "accentInk": "#ffffff", "accent2": "#1e3a8a" },
+    "dark": { "accent": "#60a5fa", "accentInk": "#0b1220", "accent2": "#93c5fd" },
+    "screen": { "accent": "#3b82f6", "accentInk": "#ffffff" },
+    "logo": { "bg": "#16181c", "fg": "#60a5fa" }
+  },
+  "deploy": { "customDomain": "" }
+}

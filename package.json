@@ -1,0 +1,20 @@
+{
+  "name": "bjj-gym",
+  "version": "1.0.0",
+  "private": true,
+  "description": "White-label academy management platform for Jiu-Jitsu schools (one codebase, one folder per client under clients/)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "node scripts/build.mjs",
+    "preview": "node server.js --dir dist",
+    "sync-default": "node scripts/sync-default.mjs",
+    "new-client": "node scripts/new-client.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}
